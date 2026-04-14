@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <h3>Client testimonial</h3>
+  <div class="testimonial">
+  <div class="card">
+<div class="cardtext">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores facilis ea sequi inventore molestiae, quas aut dolorem mollitia nam consequatur, eum minus eligendi exercitationem veritatis eos! Cupiditate dignissimos ducimus sapiente!
+</div>
+    <div class="detailes">
+        <img src="https://i.postimg.cc/rwmJfd3V/05-12-21-happy-people.jpg" alt="Client Image">
+        <div class="designation">
+        <div class="name">Jane Smith</div>
+        <div class="job">Marketing Manager</div>
+        
+    </div>
+</div>
+  </div>
+
+
+
+  <div class="card">
+    <div class="cardtext">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi expedita earum aliquam reiciendis ducimus distinctio totam. Voluptate in repudiandae, aut numquam modi ab! Atque omnis deleniti, natus reprehenderit dicta ratione?
+    </div>
+        <div class="detailes">
+        <img src="https://i.postimg.cc/rwmJfd3V/05-12-21-happy-people.jpg" alt="Client Image">
+<div class="designation">
+    <div class="name">Jean de la Cruz</div>
+     <div class="job">Web Developer</div>
+        
+    </div>
+</div>
+  </div>
+
+
+  <div class="card">
+    <div class="cardtext">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et corporis, perferendis quasi a nam illo ducimus voluptatum repellendus, id facere hic amet placeat libero illum sed commodi ipsam aperiam animi?</div>
+<div class="detailes">
+        <img src="https://i.postimg.cc/rwmJfd3V/05-12-21-happy-people.jpg" alt="Client Image">
+<div class="designation">
+        <div class="name">John Doe</div>
+        <div class="job">Graphic Designer</div>
+        
+   
+</div>
+  </div>
+  </div>  
+</body>
+</html>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        font-family: poppins, sans-serif;
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        background-color: #dee1e2;
+        justify-content: center;
+        align-items: center;
+    }
+    img{
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        margin-right: 20px;
+        object-fit: cover;
+        border: 1px solid #000;
+    }
+    h3{
+        margin-bottom: 50px;
+        margin-right: auto;
+        margin-left: 110px;
+    }
+    .testimonial{
+        display: flex;
+        gap: 20px;
+       max-width: 100vw;
+        display: flex;
+       gap: 20px;
+        justify-content: center;
+        align-items: center;
+        padding-inline: 100px;
+    }
+    .card{
+        max-width: 100vw;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.8), -5px -5px 10px rgba(0, 0, 0, 0.2);
+        border-radius: 10px;
+        color: rgba(0, 0, 0, 0.8);
+    }
+    .card::before{
+          content: "\f10d";
+          font-family:fontawesome;
+          font-size: 50px;
+          top: 0;
+          opacity: 0.2;
+    }
+    .cardtext{
+        font-size: 17px;
+        margin-bottom: 10px;
+    }
+    .detailes.card{
+        display: flex;
+        align-items: center;
+    } 
+    .designation.name{
+        font-size: 10px;
+    }  
+    .designation.job{
+        font-size:17px;
+        font-weight: 500;
+    }
+</style>
