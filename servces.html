@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <h1>Our Services</h1>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="services">
+    <div>
+        <i class="fa-solid fa-computer"></i>
+        <h2>Web development</h2>
+        <p>We build responsive and user-friendly websites that help businesses establish a strong online presence.</p>
+    </div>
+    <div >
+        <i class="fa-solid fa-mobile-button"></i>
+        <h2>Mobile and web App Development</h2>
+        <p>We create custom mobile and web applications that provide seamless user experiences and drive business growth.</p>   
+
+    </div>
+    <div>
+       <i class="fa-solid fa-robot"></i>
+        <h2>Robotics</h2>
+        <p>We design and develop advanced robotic systems that automate tasks, enhance productivity, and revolutionize industries.</p>
+    </div>
+
+    </div>
+</body>
+</html>
+<style>
+    body{
+    font-family: Arial, sans-serif;
+    }
+.services {
+  display: flex;
+  align-items: center;
+    justify-content: center;
+  
+}
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  color: rgb(12, 120, 192);
+}
+
+.services div {
+  background-color:rgba(255, 255, 255, 0.842);
+  margin: 10px;
+  padding: 20px;
+  font-size: 24px;
+  width: 500px;
+  height: 300px;
+  align-items: center;
+    box-shadow:10px 10px 10px -1px rgba(10, 99, 169, 0.16),
+    -10px -10px 10px -1px rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+    transition: 0.4s;
+
+
+}
+.services div:hover {
+    box-shadow:10px 10px 10px -1px rgba(10, 99, 169, 0.3),
+    -10px -10px 10px -1px rgba(255, 255, 255, 0.7);
+    transform: translateY(-5px);
+    background-color: rgb(176, 115, 201);
+    color: rgba(255, 255, 255, 0.842);
+}
+.services div p {
+  font-size: 18px;
+  color: rgb(70, 67, 66);
+}
+.services div i {
+  font-size: 50px;
+  margin-bottom: 20px;
+  justify-content: center;
+  color: blue;
+}
+.services div h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+  color: rgb(12, 120, 192);
+}
+</style>    
